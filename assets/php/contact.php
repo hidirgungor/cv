@@ -4,7 +4,7 @@
 $emailTo = "admin@hidirgungor.com";
 
 // ENTER IDENTIFIER
-$emailIdentifier =  "Message sent via contact form from " . $_SERVER["mail.hidirgungor.com"];
+$emailIdentifier =  "Message sent via contact form from " . $_SERVER["SERVER_NAME"];
 
 
 if($_POST) {
